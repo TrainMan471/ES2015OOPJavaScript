@@ -1,0 +1,22 @@
+{
+  "name": "treehousepractice",
+  "version": "1.0.0",
+  "description": "Practicing Object Oriented Programming in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrainMan471/ES2015OOPJavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrainMan471/ES2015OOPJavaScript/issues"
+  },
+  "homepage": "https://github.com/TrainMan471/ES2015OOPJavaScript#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
