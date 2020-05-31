@@ -5,6 +5,31 @@ class Pet {
     this.breed = breed;
     this.sound = sound;
   }
+
+  get activity() {
+    const today = new Date();
+    const hour = today.getHours();
+
+    if (hour > 8 && hour <= 20 ) {
+      return 'playing';
+    }
+    else {
+      return 'sleeping';
+    }
+
+
+  }
+
+  get owner() {
+    return this._owner;
+  }
+
+  set owner(owner) {
+    this._owner = owner;
+    console.log(`Setter Called: ${_owner}`);
+  }
+
+
   speak() {
     console.log(this.sound);
   }
@@ -26,3 +51,16 @@ console.log(mrsFloof);
 console.log(marvel);
 
 hamilton.speak();
+
+console.log(hamilton.activity);
+
+hamilton._owner = "Mike";
+console.log(hamilton._owner);
+
+/*Notes: Getter and Setter methods are used to add "DYNAMIC" pieces of info to a class, or data that changes based on a certain
+ criteria
+
+
+
+
+ */
